@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+<script>
+  window.alert = funtion() {
+  }
+  (function() {
+  var app = {
+    launchApp: function() {
+      window.location.replace("posi://abc");
+      this.timer = setTimeout(this.openWebApp, 1000);
+    },
+
+    openWebApp: function() {
+      window.location.replace("https://apps.apple.com/us/app/position-exchange-dex-defi/id6443665836");
+    }
+  };
+
+  app.launchApp();
+})();
+</script>
+</html> 
